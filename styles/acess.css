@@ -160,4 +160,5 @@ footer {
 .articleTextBox li {
   float: none;
   display: list-item;
+  background-color: white;
 }
