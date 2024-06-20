@@ -6,7 +6,7 @@
     <script src="menu.js"></script>
     <meta charset="UTF-8">
     <link rel="icon" type="image/x-icon" href="pics/avocado.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Εθνικός Δρυμός Σουνίου</title>
 </head>
@@ -19,8 +19,8 @@
             <li><a href="attractions.html">Αξιοθέατα</a></li>
             <li><a href="acess.html">Οδηγίες Πρόσβασης</a></li>
             <li><a href="paths.html"> Διαδρομές</a></li>
-            <li style="float:right"><a class="active" href="index.html"> <img class="logo2" src="pics/logo.png"></a>
-            </li>
+            <li style="float:right"><a class="active" href="index.html"> 
+                <img class="logo2" src="pics/logo.png"></a></li>
             <li class="icon">
                 <a onclick="myFunction()">
                 <i class="fa fa-bars"></i>
@@ -32,39 +32,60 @@
 
     <div class="welcome-container">
         <h1>Καλώς ήρθατε στον Εθνικό Δρυμό Σουνίου</h1>
-        <p>Εξερευνήστε την ομορφιά και την ιστορία ενός από τα πιο πολύτιμα φυσικά καταφύγια της Ελλάδας.</p>
+        <p>Εξερευνήστε την ομορφιά και την ιστορία ενός από τα 
+            πιο πολύτιμα φυσικά καταφύγια της Ελλάδας.</p>
     </div>
     <div class="flex-container1">
-
-        <div><img class="zoom" src="pics/biking.png">
+        <div><i class="fa fa-bicycle zoom fa-4x" aria-hidden="true"></i>
             <figcaption>Ποδηλασία</figcaption>
         </div>
-        <div><img class="zoom" src="pics/hiking.png">
+        <div><i class="fa fa-tree zoom fa-4x" aria-hidden="true"></i>
             <figcaption>Πεζοπορία</figcaption>
         </div>
-        <div><img class="zoom" src="pics/relaxing.png">
+        <div><i class="fa fa-umbrella zoom fa-4x" aria-hidden="true"></i>
             <figcaption>Χαλάρωση</figcaption>
         </div>
-        <div><img class="zoom" src="pics/monument.png">
+        <div><i class="fa fa-landmark fa-4x" aria-hidden="true"></i>
             <figcaption>Μνημεία</figcaption>
         </div>
 
     </div>
 
-    <div class="flex-container2">
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/J2nBc2wcAr4?si=nCWtVx1l8agb5Ikw"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/XKIhxIGNLrM?si=8oM10ssLC8JgrIBe"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+    <div class="text-sections-container">
+        <section class="text-section">
+            <h3>Ιστορία Του Δρυμού</h3>
+            <p>Παρέχει ολοκληρωμένες πληροφορίες για το πλούσιο ιστορικό υπόβαθρο του πάρκου. 
+                Καλύπτει την αρχαία σημασία του Σουνίου, τους αρχαιολογικούς χώρους και τη φυσική εξέλιξη του πάρκου. 
+                Αυτή η σελίδα περιλαμβάνει λεπτομερείς περιγραφές, ιστορικά χρονοδιαγράμματα και αρχειακές εικόνες, 
+                προσφέροντας στους επισκέπτες μια εις βάθος κατανόηση της κληρονομιάς του πάρκου και του ρόλου του στην ελληνική ιστορία.</p>
+        </section>
+        <section class="text-section">
+            <h3>Αξιοθέατα</h3>
+            <p>Τονίζει τα κύρια αξιοθέατα του Εθνικού Πάρκου Σουνίου. Στα βασικά αξιοθέατα περιλαμβάνονται ο Ναός του Ποσειδώνα, 
+                η εκπληκτική θέα του Χάους, τα αρχαία ελληνικά μεταλλεία και η ποικιλόμορφη χλωρίδα και πανίδα. Κάθε αξιοθέατο συνοδεύεται 
+                από φωτογραφίες υψηλής ποιότητας και ενδιαφέροντες πληροφορίες. Αυτή η σελίδα στοχεύει να ενισχύσει την εμπειρία των 
+                επισκεπτών προβάλλοντας περαιτέρω τη φυσική ομορφιά και τα ιστορικά ορόσημα του πάρκου.</p>
+        </section>
+        <section class="text-section">
+            <h3>Οδηγίες Πρόσβασης</h3>
+            <p>Παρέχει πρακτικές πληροφορίες για τον τρόπο επίσκεψης στον 
+                Εθνικό Δρυμό του Σουνίου. Περιλαμβάνει λεπτομέρειες σχετικά με τις ώρες λειτουργίας, 
+                τις χρεώσεις και τις επιλογές μετάβασης στον χώρο του δρυμού. Επιπλέον, αυτή η σελίδα 
+                προσφέρει συμβουλές για το τι πρέπει να φέρετε και οδηγίες ασφάλειας.</p>
+        </section>
+        <section class="text-section">
+            <h3>Διαδρομές</h3>
+            <p>Προσφέρει λεπτομερείς διαδρομές για ποδηλασία, 
+                πεζοπορία και σημεία για χαλάρωση. Κάθε μονοπάτι επισημαίνεται με το επίπεδο δυσκολίας του, που κυμαίνεται από εύκολο έως 
+                δύσκολο, και περιλαμβάνει σημαντικές πληροφορίες σχετικά με τις απαγορευμένες ζώνες για τη διασφάλιση της ασφάλειας των επισκεπτών. 
+                Ο χάρτης επιτρέπει στους χρήστες να εξερευνήσουν διαφορετικά μονοπάτια και να σχεδιάσουν τις διαδρομές τους ανάλογα. 
+                Παρέχοντας έναν οπτικό οδηγό, ο διαδραστικός χάρτης βοηθά τους επισκέπτες να περιηγηθούν αποτελεσματικά στο πάρκο και 
+                να ανακαλύψουν κρυμμένα πετράδια στην πορεία. Ο χάρτης είναι ενσωματωμένος με λειτουργία GPS, επιτρέποντας στους επισκέπτες 
+                να παρακολουθούν την τοποθεσία τους σε πραγματικό χρόνο και να λαμβάνουν ειδοποιήσεις για σημεία ενδιαφέροντος σε κοντινή απόσταση.</p>
+        </section>
     </div>
+
+
     <br>
     <footer>
         <div class="footer-container">
@@ -75,14 +96,14 @@
                 <p>Address: Πατησίων 87, Αθήνα</p>
             </div>
             <div class="footer-column footer-logo">
-                <img src="pics/logolock-removebg.png" alt="Website Logo">
+                <img src="pics/logo.png" alt="Website Logo">
             </div>
             <div class="footer-column social-media">
                 <h3>Follow Us</h3>
-                <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
-                <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
-                <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
-                <a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>
+                <a href="https://www.facebook.com" target="_blank" class="fa-brands fa-facebook"></a>
+                <a href="https://www.twitter.com" target="_blank" class="fa-brands fa-twitter"></a>
+                <a href="https://www.instagram.com" target="_blank" class="fa-brands fa-instagram"></a>
+                <a href="https://www.linkedin.com" target="_blank" class="fa-brands fa-linkedin"></a>
             </div>
         </div>
         <p><b>Εθνικός Δρυμός Σουνίου 2024® </b><br></p>

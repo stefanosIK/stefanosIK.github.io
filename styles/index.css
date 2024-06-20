@@ -1,5 +1,6 @@
 @import url("responsive.css");
 
+
 * {
   box-sizing: border-box;
 }
@@ -9,7 +10,7 @@ body, html {
     padding: 0;
     background: url("../pics/backgroundimg.jpg") no-repeat center center fixed;
     background-size: cover;
-    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 
 body::before {
@@ -131,7 +132,7 @@ figcaption{
 
 .welcome-container {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.9); /* 40% opacity */
+  background-color: rgba(255, 255, 255, 0.9); /* 90% opacity */
   padding: 20px;
   margin: 20px;
   max-width: 100%;
@@ -164,8 +165,12 @@ footer {
   min-width: 200px;
 }
 
-.contact-info, .social-media {
+.contact-info {
   text-align: left;
+}
+
+.social-media {
+  text-align: right;
 }
 
 .footer-logo img {
@@ -193,3 +198,34 @@ footer {
   }
 }
 
+
+.text-sections-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 80%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.text-section {
+  flex: 1 1 calc(25% - 20px);
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+}
+
+.text-section p{
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.fa {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
