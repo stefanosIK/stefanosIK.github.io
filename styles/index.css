@@ -164,8 +164,12 @@ footer {
   min-width: 200px;
 }
 
-.contact-info, .social-media {
+.contact-info {
   text-align: left;
+}
+
+.social-media {
+  text-align: right;
 }
 
 .footer-logo img {
