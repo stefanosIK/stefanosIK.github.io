@@ -1,6 +1,5 @@
 @import url("responsive.css");
 
-
 * {
   box-sizing: border-box;
 }
@@ -132,7 +131,7 @@ figcaption{
 
 .welcome-container {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.9); /* 90% opacity */
+  background-color: rgba(255, 255, 255, 0.9); /* 40% opacity */
   padding: 20px;
   margin: 20px;
   max-width: 100%;
@@ -165,12 +164,8 @@ footer {
   min-width: 200px;
 }
 
-.contact-info {
+.contact-info, .social-media {
   text-align: left;
-}
-
-.social-media {
-  text-align: right;
 }
 
 .footer-logo img {
